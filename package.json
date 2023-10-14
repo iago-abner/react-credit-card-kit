@@ -41,5 +41,6 @@
   },
   "publishConfig": {
     "@iago-abner:registry": "https://npm.pkg.github.com"
-  }
+  },
+  "license": "MIT"
 }
