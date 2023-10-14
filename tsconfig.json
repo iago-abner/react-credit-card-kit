@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+
+    "jsx": "react",
+    "module": "ESNext",
+    "declaration": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "emitDeclarationOnly": true
+  },
+  "include": ["src"],
+  "exclude": ["**/*.test.tsx", "**/*.spec.tsx"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
