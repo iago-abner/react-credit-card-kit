@@ -1,9 +1,10 @@
-interface ButtonProps {
-  text?: string;
-}
+import { useState } from "react";
+import { ButtonProps } from "./Button.types";
 
 export function Button({text}: ButtonProps) {
+  const [title, setTitle] = useState(text)
+
   return (
-    <p>{text}</p>
+    <button onClick={() => setTitle('vai ti fudê mlk')}>{title}</button>
   )
 }
