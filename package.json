@@ -1,6 +1,6 @@
 {
   "name": "react-credit-card-kit",
-  "private": true,
+  "private": false,
   "version": "0.0.1",
   "type": "module",
   "main": "dist/index.umd.js",
